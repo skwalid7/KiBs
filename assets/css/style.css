@@ -1,0 +1,376 @@
+/*------------------------------------------------------------------
+	[Master Stylesheet]
+	
+	Project:    Project Name
+	Version:    1.0
+	Last change:    24/03/17 [fixed Float bug, vf]
+	Author Name: Author Name
+	Primary use:    Project Type
+	-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+	[Table of contents]
+	
+	1. Body
+	2.
+	-------------------------------------------------------------------*/
+
+/*
+	==========================================
+    Reset Css
+	==========================================
+	*/
+	html{
+		scroll-behavior: smooth;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	ul li {
+		list-style: none;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6{
+		margin: 0;
+	}
+	p{
+		color: #969595;
+	}
+	/*Start Slide bar menu*/
+	/* The sidebar menu */
+	.sidebar {
+		height: 100%; /* 100% Full-height */
+		width: 0; /* 0 width - change this with JavaScript */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Stay on top */
+		top: 0;
+		left: 0;
+		background-color: #111; /* Black*/
+		overflow-x: hidden; /* Disable horizontal scroll */
+		padding-top: 60px; /* Place content 60px from the top */
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+	}
+
+	/* The sidebar links */
+	.sidebar a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+	}
+
+	/* When you mouse over the navigation links, change their color */
+	.sidebar a:hover {
+		color: #f1f1f1;
+	}
+
+	/* Position and style the close button (top right corner) */
+	.sidebar .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+
+	/* The button used to open the sidebar */
+	.openbtn {
+		font-size: 24px;
+		cursor: pointer;
+		color: black;
+		background: #67e6df70;
+		padding:0px 15px;
+		border: none;
+		position: fixed;
+		top: 8%;
+		right:12%;
+		z-index: 1;
+	}
+
+	.openbtn:hover {
+		background-color:#00000017;
+	}
+
+	/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+	#main {
+		transition: margin-left .5s; /* If you want a transition effect */
+		padding: 20px;
+	}
+
+	/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+	/*@media screen and (max-height: 450px) {
+		.sidebar {padding-top: 15px;}
+		.sidebar a {font-size: 18px;}
+		} */
+		/*Finished Slide bar menu*/
+
+		/* hero-area  */
+
+		.hero-area{
+			background:url('../img/hero_bg.jpg');
+			background-position:center;
+			background-size:cover;
+
+		}
+		.hero-head {
+			padding: 200px 0px;
+		}
+		.hero-head h1 {
+			font-size: 60px;
+			font-weight: bold;
+			color:#3c3d41;
+		}
+		.hero-head h3 {
+			font-size: 34px;
+			font-weight: unset;
+			color:#3c3d41;
+		}
+		.hero-head p {
+			font-size: 13px;
+			padding: 35px 0px;
+			font-weight: 502;
+		}
+		.hero-but button {
+			border-radius: 0px;
+			margin-right: 15px;
+			padding: 10px 40px;
+			font-size: 14px;
+		}
+		.btn.h-but1 {
+			background: #3c3d41;
+			color:white;
+			border:1px solid #3c3d41;
+		}
+		.btn.h-but1:hover {
+			background: transparent;
+			color:white;
+			border:1px solid white;
+		}
+		.btn.h-but2 {
+			background: transparent;
+			color:white;
+			border: 1px solid;
+		}
+		.btn.h-but2:hover{
+			background: #3c3d41;
+			color:white;
+			border: 1px solid #3c3d41;
+		}
+		.nav-link {
+			padding-left: 20px;
+			font-size: 45px;
+		}
+		.nav-item a i {
+			font-size: 20px;
+			margin-right: 15px;
+			color:white;
+		}
+		/*Start about-us-area*/
+		.about-us-area{
+			background: white;
+			padding: 120px 0px;
+		}
+		.about-head h2 {
+			font-weight: bold;
+		}
+		.about-head p{
+			padding-top: 30px;
+		}
+		.card-deck{
+			padding-top: 50px;
+		}
+		.card {
+			border: none;
+			background: white;
+		}
+		.card:hover {
+			background:white;
+			box-shadow: 0px 1px 10px 1px #00000026;
+		}
+		.card-head i{
+			border: 1px solid #ddd;
+			padding: 20px 15px;
+			border-radius: 30px;
+			margin: 27px 0px 10px;
+			color: #666;
+		}
+		.card:hover .card-head i{
+			background: 
+			#67e6df;
+			color: white;
+		}
+		/*Start We get area*/
+		.we-get-area{
+			background:url('../img/bg.jpg');
+			background-position:center;
+			background-size:cover;
+		}
+		.we-get-text {
+			padding-top: 200px;
+			padding-bottom: 115px;
+		}
+		.single-review-item h3 {
+			font-size: 33px;
+			font-weight: bold;
+			color: 
+			white;
+		}
+		.single-review-item p {
+			color:#ddd;
+			padding-top: 30px;
+		}
+		.single-review-item button {
+			border-radius: 0px;
+			background:#67e6df;
+			color: white;
+			margin-top: 40px;
+		}
+		.mobile-img{
+			margin-top:40px;
+		}
+		/*Start Portfolio area*/
+		.portfolio-area {
+			padding-top: 100px;
+			padding-bottom:110px;
+		}
+		.mix-but {
+			margin: 70px 0px 10px;
+		}
+		.mix-but button {
+			margin: 0px 2px;
+			border: none;
+			padding: 5px 20px;
+			background:#f3f3f3;
+		}
+		.mix-but button:hover {
+			background:#67e6df;
+			color:white;
+		}
+		.portfolio-head h3 {
+			font-weight: bold;
+			padding: 10px 0px 30px;
+			color:#4f4f4f;
+		}
+		.portfolio-head p {
+			color: 
+			#666;
+		}
+		.projectimg{
+			padding-top: 30px;
+		}
+		.mix{
+			padding:3px; 
+		}
+		/*Start Testimonial area*/
+		.testimonial-area{
+			background-image: url('../img/testimonial_bg.jpg');
+			background-position:center;
+			background-size:cover;
+		}
+		.test-text.text-center {
+			padding: 90px 0px 0px;
+		}
+		.test-text h2 {
+			color: #333;
+			font-weight: bold;
+		}
+		.test-text p {
+			padding-top: 20px;
+			color: #777;
+		}
+		.review {
+			background: 
+			white;
+			padding: 40px;
+			margin:115px 0px 20px -25px;
+		}
+		.review p {
+			font-size: 17px;
+			font-style: italic;
+			font-weight: initial;
+		}
+		.review h6 {
+			font-style: italic;
+			color:#70e7e1; 
+		}
+		.person1 img {
+			margin-top: 00px;
+		}
+		/*Start team area*/
+		.our-team-area{
+			padding: 0px 0px 60px;
+		}
+		.team-head {
+			padding: 50px;
+			text-align: center;
+		}
+		.team-head h2 {
+			font-weight: bold;
+			color: #333;
+		}
+		.team-head p {
+			padding-top: 20px;
+			font-size: 15px;
+		}
+		.card-foot-icon{
+			padding:0%;
+		}
+		.card-foot-icon i {
+			padding: 15px;
+			border: 1px solid #eaeaea;
+			margin: 0px 11px;
+			background: #fff;
+			border-radius: 50px;
+			font-size: 16px;
+			color: #b2b2b2;
+		}
+		.card-foot-icon i:hover{
+			background: #67e6e0;
+			color: white;
+		}
+		/*Start Footer area*/
+		.footer-area{
+			background: #262a34;
+			padding: 100px 0px 30px;
+		}
+		.footer h2 {
+			color: white;
+			font-weight: bold;
+		}
+		button.btn.btn-info {
+			padding: 0px 50px;
+			margin-left: 10px;
+		}
+		.footer.text-center p {
+			color: #ddd;
+			font-size: 15px;
+			padding-top: 20px;
+		}
+		.input-group {
+			margin-top: 62px;
+		}
+		.foot-img {
+			margin-top: 100px;
+		}
+		.footer.text-center a {
+			color: white;
+			text-decoration: none;
+		}
+		.footer.text-center a:hover{
+			color: #67e6e0;
+		}
+		.foot-icon.text-center a i {
+			margin: 25px 15px;
+			color: #ddd;
+		}
+		.foot-icon.text-center a i:hover {
+			color: #67e6e0;
+		}

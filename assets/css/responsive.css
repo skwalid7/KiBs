@@ -1,0 +1,365 @@
+/* Medium Layout:1280px. */
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	.openbtn {
+    top: 8%;
+    right: 5%;
+    padding: 2px 15px;
+}
+i.fab.fa-facebook {
+    margin-right: 30px;
+}
+	.hero-head {
+    padding: 140px 0px;
+}
+.about-us-area {
+    padding: 100px 0px;
+}
+.card-deck {
+    padding-top: 20px;
+}
+.we-get-text {
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+.portfolio-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.mix-but {
+    margin: 40px 0px 10px;
+}
+.review {
+    padding: 28px;
+    margin: 35px 0px 20px -25px;
+}
+.team-head {
+    padding: 50px 0px 20px;
+}
+.footer-area {
+    padding: 65px 0px 0px;
+}
+.foot-img {
+    margin-top: 30px;
+}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.navbar-dark .navbar-brand {
+    max-width: 8%;
+}
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#main {
+    padding: 0px;
+}
+.openbtn {
+    padding: 0px 15px;
+    top: 6%;
+    right: 3%;
+}
+i.fab.fa-facebook {
+    margin-right: 30px;
+}
+.hero-head {
+    padding: 80px 0px;
+}
+.hero-head h1 {
+    font-size: 50px;
+}
+.hero-head h3 {
+    font-size: 29px;
+}
+.hero-head p {
+    font-size: 13px;
+    padding: 25px 28px 25px 0px;
+}
+.hero-but button {
+    padding: 7px 35px;
+    font-size: 12px;
+}
+.about-us-area {
+    padding: 50px 0px 20px;
+}
+.card-head i {
+    padding: 15px 10px;
+    margin: 10px 0px 0px;
+}
+.card-body.text-center p {
+    font-size: 12px;
+    color: #666;
+    padding-top: 10px;
+}
+.card-body.text-center h6 {
+    font-size: 13px;
+    font-weight: bold;
+}
+.we-get-text {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.mobile-img {
+    margin-top: 130px;
+}
+.portfolio-area {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.test-text.text-center {
+    padding: 50px 0px 0px;
+}
+.review {
+    padding:20px;
+    margin: 0px 0px 20px -25px;
+}
+.review p {
+    font-size: 13px;
+}
+.test-text h2 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}
+.test-text p {
+    padding-top: 8px;
+    font-size: 13px;
+    color: #666;
+}
+.team-head p {
+    padding-top: 10px;
+    font-size: 13px;
+}
+.team-head {
+    padding: 50px 0px 0px;
+}
+.card-foot-icon i {
+    padding: 10px;
+    margin: 0px 7px;
+    font-size: 15px;
+}
+.footer-area {
+    padding: 50px 0px 5px;
+}
+.footer.text-center p {
+    font-size: 13px;
+    padding-top: 15px;
+}
+.input-group {
+    margin-top: 45px;
+}
+button.btn.btn-info {
+    padding: 0px 30px;
+}
+.foot-img {
+    margin-top: 25px;
+}
+.foot-img img {
+    max-width: 12%;
+}
+.footer.text-center a {
+    font-size: 14px;
+}
+.foot-icon.text-center a i {
+    margin: 10px 15px;
+    color: #ddd;
+}
+#scrollUp {
+    bottom: 40px;
+    right: 40px;
+}
+}
+/* wide Mobile Layout;488px  */
+@media only screen and (min-width:480px) and (max-width:767px) {
+	
+}
+/* Mobile Layout: 320px;. */
+@media only screen and (max-width:767px) {
+	.navbar-brand img {
+    max-width: 50%;
+}
+i.fab.fa-facebook {
+    margin-right: 50px;
+}
+.openbtn {
+    background: #f5f5f5b3;
+    padding: 2px 10px;
+    top: 21px;
+    right: 4%;
+    font-size: 19px;
+}
+.hero-area {
+    background-position: inherit;
+}
+	.hero-head h1 {
+    font-size: 35px;
+}
+.hero-head {
+    padding: 80px 0px 130px;
+}
+.hero-head h3 {
+    font-size: 20px;
+}
+.hero-head p {
+    font-size: 10px;
+    padding: 30px 70px 15px 0px;
+    color: #3a3a3a;
+}
+.hero-but button {
+    border-radius: 0px;
+    margin-right: 8px;
+    padding: 3px 15px;
+    font-size: 12px;
+}
+.btn.h-but1:hover {
+    background:#00000030;
+}
+.btn.h-but2 {
+    background: #00000030;
+}
+.about-us-area {
+    padding: 45px 0px;
+}
+h2 {
+    font-size: 22px;
+}
+.about-head p {
+    padding-top: 8px;
+    font-size: 11px;
+}
+.card-deck {
+    padding-top: 0px;
+}
+p {
+    color: #7a7a7a;
+    font-size: 14px;
+}
+.card-body.text-center p {
+    padding-top: 8px;
+}
+.we-get-text {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.single-review-item h3 {
+    font-size: 23px;
+}
+.single-review-item p {
+    padding-top: 15px;
+    font-size: 13px;
+}
+.single-review-item button {
+    margin-top: 10px;
+    padding: 2px 10px;
+    font-size: 13px;
+}
+.mobile-img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.portfolio-area {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.portfolio-head h3 {
+    padding: 0px 0px 10px;
+    font-size: 23px;
+}
+.portfolio-head p {
+    font-size: 12px;
+}
+.mix-but {
+    margin: 30px 0px 0px;
+}
+.mix-but button {
+    margin: 0px 1px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.projectimg {
+    padding-top: 15px;
+}
+.test-text.text-center {
+    padding: 45px 0px 0px;
+}
+.test-text p {
+    padding-top: 7px;
+    color: #777;
+    font-size: 11px;
+}
+.review {
+    padding: 20px;
+    margin: 1px 0px 20px 0px;
+}
+.review p {
+    font-size: 13px;
+}
+.review h6 {
+    margin-top: -10px;
+}
+.team-head {
+    padding: 30px 30px 20px;
+}
+.team-head p {
+    padding-top: 5px;
+    font-size: 12px;
+}
+.our-team-area {
+    padding: 0px 0px 20px;
+}
+.footer-area {
+    padding: 35px 0px 0px;
+}
+.footer.text-center p {
+    font-size: 12px;
+    padding-top: 10px;
+}
+.input-group {
+    margin-top: 35px;
+}
+button.btn.btn-info {
+    padding: 0px 25px;
+}
+.foot-img {
+    margin-top: 40px;
+}
+.foot-img img {
+    max-width: 15%;
+}
+.footer.text-center a {
+    font-size: 12px;
+}
+.foot-icon.text-center a i {
+    margin: 10px 15px;
+}
+.nav-item a i {
+    color: black;
+}
+.navbar-nav {
+    display: -webkit-inline-box;
+}
+#main {
+    padding: 0px;
+}
+.nav-link {
+    font-size: 24px;
+}
+.nav-link {
+    padding-left: 20px;
+    font-size: 24px;
+}	
+.nav-item a i {
+    font-size: 16px;
+    margin-right: 15px;
+}
+.sidebar a {
+    padding: 0px 0px 15px 8px;
+    font-size: 14px;
+}
+#scrollUp {
+    bottom: 25px;
+    right: 20px;
+}
+}
